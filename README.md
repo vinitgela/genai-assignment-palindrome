@@ -194,31 +194,6 @@ Your solution will be evaluated on:
    - Known limitations and trade-offs
    - Sample screenshots of the application
 
-## Project Structure (Recommended)
-
-```
-/your_solution
-├── app.py                    # Streamlit application entry point
-├── requirements.txt          # Dependencies with versions
-├── .env.example             # Environment variables template
-├── README.md                # Your documentation
-├── /extractor
-│   ├── __init__.py
-│   ├── llm_client.py        # LLM API wrapper
-│   ├── document_parser.py   # .docx text extraction
-│   ├── sow_extractor.py     # Main extraction logic
-│   └── schema.py            # Pydantic models for output
-├── /utils
-│   ├── __init__.py
-│   └── helpers.py           # Utility functions
-├── /config
-│   └── knowledge_base.json  # SOW requirements
-├── /tests
-│   ├── test_extractor.py
-│   └── test_parser.py
-└── /outputs
-    └── (generated JSON files)
-```
 
 ## Technical Requirements
 
